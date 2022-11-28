@@ -38,8 +38,3 @@ public class CatalogResource {
     }
 }
 
-/*
-Alternative WebClient way
-Movie movie = webClientBuilder.build().get().uri("http://localhost:8082/movies/"+ rating.getMovieId())
-.retrieve().bodyToMono(Movie.class).block();
-*/

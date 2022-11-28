@@ -1,4 +1,4 @@
-package io.javabrains.discoveryserver;
+package com.webmobilez.discoveryserver.discoveryserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,4 +13,3 @@ public class DiscoveryServerApplication {
 	}
 
 }
-

@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "7ef40e57-378b-418e-92fc-1d22fd82dba1",
+		"name": "movie-catalog-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "865546"
+	},
+	"item": [
+		{
+			"name": "MovieCatelog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://desktop-t5c1aup:8081/catalog/1",
+					"protocol": "http",
+					"host": [
+						"desktop-t5c1aup"
+					],
+					"port": "8081",
+					"path": [
+						"catalog",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
